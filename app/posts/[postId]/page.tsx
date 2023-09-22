@@ -4,13 +4,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation"
 
 
-export function generateStaticParams(){
-    const posts = getSortedPostsData();
+// export function generateStaticParams(){
+//     const posts = getSortedPostsData();
 
-    return posts.map((post)=>{
-        postId : post.id
-    })
-}
+//     return posts.map((post)=>{
+//         postId : post.id
+//     })
+// }
 
 export function generateMetadata({ params }: { params: { postId: string } }) {
     const posts = getSortedPostsData()
