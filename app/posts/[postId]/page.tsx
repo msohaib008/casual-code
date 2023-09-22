@@ -1,6 +1,7 @@
 import getFormattedDate from "@/lib/getFormattedDate";
 import { getSortedPostData, getSortedPostsData } from "@/lib/posts"
 import Link from "next/link";
+import ReactMarkdown from 'react-markdown';
 import { notFound } from "next/navigation"
 
 
@@ -43,7 +44,9 @@ export default async function Post({ params }: { params: { postId: string } }) {
             <h1 className="text-3xl mt-4 mb-0">{title}</h1>
             <p className="mt-0">{pubDate}</p>
             <article>
-                <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
+            <ReactMarkdown>{contentHtml}</ReactMarkdown>
+
+                {/* <section dangerouslySetInnerHTML={{ __html: contentHtml }} /> */}
                 <p>
                     <Link href="/">← Back to home</Link>
                 </p>
