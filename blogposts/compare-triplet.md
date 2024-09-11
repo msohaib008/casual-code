@@ -49,7 +49,7 @@ Sample Input 0
 
 Sample Output 0
 - 1 1
-![Explanation 0](/public/images/explanation1.png "Explanation 0")
+![Explanation 0](/images/explanation1.png "Explanation 0")
 
 
 **Solution**
