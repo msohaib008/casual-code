@@ -9,7 +9,6 @@ export default function Home() {
         <span className="whitespace-nowrap">
           I&apos;m <span className="font-bold">Sohaib</span>
         </span>
-        <Link href="https://staging.rxlink.com/#/medication">← Go to RxLink</Link>
       </p>
       <Post/>
     </main>
