@@ -9,12 +9,6 @@ export default function Home() {
         <span className="whitespace-nowrap">
           I&apos;m <span className="font-bold">Sohaib</span>
         </span>
-        <Link
-          className="underline hover:text-black/70 dark:hover:text-white"
-          href={`http://localhost:3000/#/medications`}
-        >
-          RxLink
-        </Link>
       </p>
       <Post />
     </main>
