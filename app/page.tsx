@@ -11,7 +11,7 @@ export default function Home() {
         </span>
         <Link
           className="underline hover:text-black/70 dark:hover:text-white"
-          href={`localhost:3000/#/medications`}
+          href={`http://localhost:3000/#/medications`}
         >
           RxLink
         </Link>
