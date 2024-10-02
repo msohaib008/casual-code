@@ -1,3 +1,4 @@
+"use client";  // Add this directive at the top
 import Post from "./components/Post"
 import Link from "next/link";
 import { useRouter } from 'next/navigation';
