@@ -5,6 +5,8 @@ import { ThemeSwitcher } from "./ThemeSwitcher"
 import { ThemeProvider } from './theme-provider'
 import Navbar from './components/Navbar';
 import MyProfilePic from './components/MyProfilePic'
+import { Analytics } from '@vercel/analytics/react';
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -30,6 +32,7 @@ export default function RootLayout({
           <ThemeSwitcher />
           <MyProfilePic/>
           {children}
+          <Analytics />
           </main>
       </ThemeProvider></body>
     </html>
