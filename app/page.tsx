@@ -1,5 +1,5 @@
 "use client";  // Add this directive at the top
-import Post from "./components/Post"
+// import Post from "./components/Post"
 import Link from "next/link";
 import { useRouter } from 'next/navigation';
 
@@ -16,7 +16,7 @@ export default function Home() {
           I&apos;m <span className="font-bold" onClick={handleGoBack}>Sohaib</span>
         </span>
       </p>
-      <Post />
+      {/* <Post /> */}
     </main>
   )
 }
